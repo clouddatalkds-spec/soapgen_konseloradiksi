@@ -63,7 +63,7 @@ Berikan informasi yang relevan untuk setiap bagian (S, O, A, P). Pastikan format
 S: Tulis keluhan subjektif atau pernyataan klien.
 O: Tulis data objektif seperti observasi perilaku, interaksi, dan ekspresi emosi klien selama sesi.
 A: Tulis asesmen atau diagnosis fungsional berdasarkan data S dan O.
-P: Buatlah rencana intervensi konseling yang relevan dan langkah selanjutnya. Rencana ini harus mencakup beberapa poin, di mana setiap poin intervensi diikuti oleh penjelasan satu kalimat yang menunjukkan bagaimana poin tersebut memenuhi kriteria SMART (Specific, Measurable, Achievable, Relevant, Time-bound).
+P: Buatlah rencana intervensi konseling yang relevan dan langkah selanjutnya. Rencana ini harus mencakup beberapa poin, di mana setiap poin intervensi diikuti oleh penjelasan satu kalimat utuh yang menunjukkan bagaimana poin tersebut memenuhi kriteria SMART (Specific, Measurable, Achievable, Relevant, Time-bound) tanpa dipotong oleh kalimat yang menunjukkan dimana bagian itu SMART (Specific, Measurable, Achievable, Relevant, Time-bound) .
 
 Format keluaran harus seperti contoh berikut:
 S: [Teks subjektif klien]
@@ -224,5 +224,6 @@ if st.button("Hasilkan Catatan SOAP Lengkap"):
     )
     
     st.markdown("---")
+
 
 st.info("Aplikasi ini dibuat sebagai contoh. Isi catatan harus disesuaikan dengan kondisi spesifik klien dan diverifikasi oleh tenaga profesional.")
